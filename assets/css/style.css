@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../images/Aspen1.jpg");
+  opacity: 0.80;
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.form {
+  position: fixed;
+  width: 800px;
+  height: 400px;
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+  opacity: 0.9;
+}
+
+.main {
+  text-align: center;
+  padding: 20px;
+}
+
+.work {
+  position: fixed;
+}
